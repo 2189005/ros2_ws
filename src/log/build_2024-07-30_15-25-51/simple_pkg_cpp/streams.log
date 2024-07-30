@@ -1,0 +1,49 @@
+[0.011s] Invoking command in '/home/lab/ros2_ws/src/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lab/ros2_ws/src/simple_pkg_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lab/ros2_ws/src/install/simple_pkg_cpp
+[0.074s] -- The C compiler identification is GNU 11.4.0
+[0.130s] -- The CXX compiler identification is GNU 11.4.0
+[0.137s] -- Detecting C compiler ABI info
+[0.199s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.206s] -- Detecting C compile features - done
+[0.208s] -- Detecting CXX compiler ABI info
+[0.291s] -- Detecting CXX compiler ABI info - done
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.297s] -- Detecting CXX compile features
+[0.297s] -- Detecting CXX compile features - done
+[0.299s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.412s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.470s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.484s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.507s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.510s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.515s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.535s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.615s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.617s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.730s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.774s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.833s] -- Looking for pthread.h
+[0.941s] -- Looking for pthread.h - found
+[0.942s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.052s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.053s] -- Found Threads: TRUE  
+[1.261s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake:43 (_install):
+[1.261s]   _install does not recognize sub-command IMPORTED_TARGETS
+[1.261s] Call Stack (most recent call first):
+[1.261s]   CMakeLists.txt:17 (install)
+[1.262s] 
+[1.262s] [0m
+[1.267s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.368s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.368s] -- Configured cppcheck include dirs: 
+[1.368s] -- Configured cppcheck exclude dirs and/or files: 
+[1.369s] -- Added test 'lint_cmake' to check CMake code style
+[1.370s] -- Added test 'uncrustify' to check C / C++ code style
+[1.370s] -- Configured uncrustify additional arguments: 
+[1.370s] -- Added test 'xmllint' to check XML markup files
+[1.371s] -- Configuring incomplete, errors occurred!
+[1.371s] See also "/home/lab/ros2_ws/src/build/simple_pkg_cpp/CMakeFiles/CMakeOutput.log".
+[1.391s] Invoked command in '/home/lab/ros2_ws/src/build/simple_pkg_cpp' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lab/ros2_ws/src/simple_pkg_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lab/ros2_ws/src/install/simple_pkg_cpp

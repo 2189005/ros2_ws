@@ -11,10 +11,10 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
 # find_package(<dependency> REQUIRED)
-add_executable(helloworld src/helloworld)
+add_executable(helloworld src/helloworld.cpp)
 
 #install
-install(IMPORTED_TARGETS
+install(TARGETS
   helloworld
   DESTINATION lib/${PROJECT_NAME}
 )
