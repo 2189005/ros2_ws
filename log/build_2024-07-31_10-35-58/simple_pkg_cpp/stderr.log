@@ -1,0 +1,10 @@
+[01m[K/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp/src/publisher.cpp:[m[K In function ‘[01m[Kvoid publish_helloworld_msg()[m[K’:
+[01m[K/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp/src/publisher.cpp:13:43:[m[K [01;31m[Kerror: [m[K‘[01m[K_i[m[K’ was not declared in this scope
+   13 |     msg.data = "Hellow, World!"+to_string([01;31m[K_i[m[K) ;
+      |                                           [01;31m[K^~[m[K
+[01m[K/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp/src/publisher.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_pub[m[K’ was not declared in this scope
+   14 |     [01;31m[K_pub[m[K->publish(msg);
+      |     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/hello_publisher_class2.dir/build.make:90: CMakeFiles/hello_publisher_class2.dir/src/publisher.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/hello_publisher_class2.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

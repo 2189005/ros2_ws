@@ -309,3 +309,48 @@ endfunction()
 message(STATUS "Execute custom install script")
 
 # begin of custom install code
+
+# install("TARGETS" "helloworld" "helloOpenCV" "hello_publisher" "hello_publisher2" "hello_publisher_class" "hello_publisher_class2" "DESTINATION" "lib/simple_pkg_cpp")
+include("/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/simple_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp" FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/simple_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/simple_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp" FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/simple_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/simple_pkg_cpp/environment")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/simple_pkg_cpp/environment")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/simple_pkg_cpp/environment")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp" FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/simple_pkg_cpp/environment")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/simple_pkg_cpp/environment")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/simple_pkg_cpp/environment")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/simple_pkg_cpp/environment")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp" FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/simple_pkg_cpp/environment")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/simple_pkg_cpp")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp" FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/simple_pkg_cpp")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/simple_pkg_cpp")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp" FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/simple_pkg_cpp")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/simple_pkg_cpp")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp" FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/simple_pkg_cpp")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/simple_pkg_cpp")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp" FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/simple_pkg_cpp")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/simple_pkg_cpp")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp" FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/simple_pkg_cpp")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/packages/simple_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp" FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/packages/simple_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_core/simple_pkg_cppConfig.cmake" "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_core/simple_pkg_cppConfig-version.cmake" "DESTINATION" "share/simple_pkg_cpp/cmake")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp" FILES "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_core/simple_pkg_cppConfig.cmake" "/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/ament_cmake_core/simple_pkg_cppConfig-version.cmake" "DESTINATION" "share/simple_pkg_cpp/cmake")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp/package.xml" "DESTINATION" "share/simple_pkg_cpp")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp" FILES "/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp/package.xml" "DESTINATION" "share/simple_pkg_cpp")

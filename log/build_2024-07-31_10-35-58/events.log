@@ -1,0 +1,316 @@
+[0.000000] (-) TimerEvent: {}
+[0.000123] (simple_pkg_cpp) JobQueued: {'identifier': 'simple_pkg_cpp', 'dependencies': OrderedDict()}
+[0.000146] (simple_pkg_cpp) JobStarted: {'identifier': 'simple_pkg_cpp'}
+[0.017244] (simple_pkg_cpp) JobProgress: {'identifier': 'simple_pkg_cpp', 'progress': 'cmake'}
+[0.028278] (simple_pkg_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/lab/ros2_ws/src/ros2_ws/install/simple_pkg_cpp'], 'cwd': '/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'lab'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lab'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1501'), ('SYSTEMD_EXEC_PID', '1661'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6519'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lab'), ('JOURNAL_STREAM', '8:37243'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lab-virtual-machine:@/tmp/.ICE-unix/1645,unix/lab-virtual-machine:/tmp/.ICE-unix/1645'), ('INVOCATION_ID', '01dec95ecb5c4c6487795b43e2c4fd48'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SFNSR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-592ab7a706.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/home/lab/ros2_ws/install/simple_pkg_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lab/ros2_ws/install/simple_pkg_cpp:/opt/ros/humble')]), 'shell': False}
+[0.076059] (simple_pkg_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100153] (-) TimerEvent: {}
+[0.201190] (-) TimerEvent: {}
+[0.211444] (simple_pkg_cpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.244729] (simple_pkg_cpp) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[0.248914] (simple_pkg_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.301315] (-) TimerEvent: {}
+[0.330011] (simple_pkg_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.338204] (simple_pkg_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.352593] (simple_pkg_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.375226] (simple_pkg_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.401935] (-) TimerEvent: {}
+[0.411177] (simple_pkg_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.503061] (-) TimerEvent: {}
+[0.515899] (simple_pkg_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.520319] (simple_pkg_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.604852] (-) TimerEvent: {}
+[0.679662] (simple_pkg_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.703614] (simple_pkg_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.705484] (-) TimerEvent: {}
+[0.748709] (simple_pkg_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.764167] (simple_pkg_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.805848] (-) TimerEvent: {}
+[0.885967] (simple_pkg_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.887214] (simple_pkg_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.906174] (-) TimerEvent: {}
+[1.006827] (-) TimerEvent: {}
+[1.019014] (simple_pkg_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.019215] (simple_pkg_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.107014] (-) TimerEvent: {}
+[1.207681] (-) TimerEvent: {}
+[1.258311] (simple_pkg_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.308775] (-) TimerEvent: {}
+[1.361871] (simple_pkg_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.362289] (simple_pkg_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp/include\n'}
+[1.362402] (simple_pkg_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.363639] (simple_pkg_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.365278] (simple_pkg_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.365454] (simple_pkg_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.366548] (simple_pkg_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.368791] (simple_pkg_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.408946] (-) TimerEvent: {}
+[1.409299] (simple_pkg_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.411611] (simple_pkg_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp\n'}
+[1.431354] (simple_pkg_cpp) CommandEnded: {'returncode': 0}
+[1.431890] (simple_pkg_cpp) JobProgress: {'identifier': 'simple_pkg_cpp', 'progress': 'build'}
+[1.431920] (simple_pkg_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp', '--', '-j2', '-l2'], 'cwd': '/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'lab'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lab'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1501'), ('SYSTEMD_EXEC_PID', '1661'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6519'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lab/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lab'), ('JOURNAL_STREAM', '8:37243'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lab'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lab-virtual-machine:@/tmp/.ICE-unix/1645,unix/lab-virtual-machine:/tmp/.ICE-unix/1645'), ('INVOCATION_ID', '01dec95ecb5c4c6487795b43e2c4fd48'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SFNSR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-592ab7a706.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '20'), ('AMENT_PREFIX_PATH', '/home/lab/ros2_ws/install/simple_pkg_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lab/ros2_ws/install/simple_pkg_cpp:/opt/ros/humble')]), 'shell': False}
+[1.505486] (simple_pkg_cpp) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/helloOpenCV.dir/src/helloOpenCV.cpp.o\x1b[0m\n'}
+[1.509370] (-) TimerEvent: {}
+[1.525647] (simple_pkg_cpp) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/helloworld.dir/src/helloworld.cpp.o\x1b[0m\n'}
+[1.609983] (-) TimerEvent: {}
+[1.711482] (-) TimerEvent: {}
+[1.813311] (-) TimerEvent: {}
+[1.914976] (-) TimerEvent: {}
+[1.960528] (simple_pkg_cpp) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX executable helloworld\x1b[0m\n'}
+[2.015557] (-) TimerEvent: {}
+[2.116605] (-) TimerEvent: {}
+[2.165818] (simple_pkg_cpp) StdoutLine: {'line': b'[ 23%] Built target helloworld\n'}
+[2.195754] (simple_pkg_cpp) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/hello_publisher.dir/src/hello_publisher.cpp.o\x1b[0m\n'}
+[2.219434] (-) TimerEvent: {}
+[2.323813] (-) TimerEvent: {}
+[2.425160] (-) TimerEvent: {}
+[2.528682] (-) TimerEvent: {}
+[2.629537] (-) TimerEvent: {}
+[2.730537] (-) TimerEvent: {}
+[2.832432] (-) TimerEvent: {}
+[2.935049] (-) TimerEvent: {}
+[3.035808] (-) TimerEvent: {}
+[3.140607] (-) TimerEvent: {}
+[3.245226] (-) TimerEvent: {}
+[3.346034] (-) TimerEvent: {}
+[3.448882] (-) TimerEvent: {}
+[3.549633] (-) TimerEvent: {}
+[3.650117] (-) TimerEvent: {}
+[3.752608] (-) TimerEvent: {}
+[3.854096] (-) TimerEvent: {}
+[3.954756] (-) TimerEvent: {}
+[4.057992] (-) TimerEvent: {}
+[4.158449] (-) TimerEvent: {}
+[4.258827] (-) TimerEvent: {}
+[4.359209] (-) TimerEvent: {}
+[4.459989] (-) TimerEvent: {}
+[4.560511] (-) TimerEvent: {}
+[4.661391] (-) TimerEvent: {}
+[4.762030] (-) TimerEvent: {}
+[4.863055] (-) TimerEvent: {}
+[4.976196] (-) TimerEvent: {}
+[5.079212] (-) TimerEvent: {}
+[5.180066] (-) TimerEvent: {}
+[5.281872] (-) TimerEvent: {}
+[5.383010] (-) TimerEvent: {}
+[5.441406] (simple_pkg_cpp) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX executable helloOpenCV\x1b[0m\n'}
+[5.483755] (-) TimerEvent: {}
+[5.586285] (-) TimerEvent: {}
+[5.688206] (-) TimerEvent: {}
+[5.797060] (-) TimerEvent: {}
+[5.899314] (-) TimerEvent: {}
+[6.001341] (-) TimerEvent: {}
+[6.102518] (-) TimerEvent: {}
+[6.208383] (-) TimerEvent: {}
+[6.313048] (-) TimerEvent: {}
+[6.418786] (-) TimerEvent: {}
+[6.519680] (-) TimerEvent: {}
+[6.605229] (simple_pkg_cpp) StdoutLine: {'line': b'[ 38%] Built target helloOpenCV\n'}
+[6.620124] (-) TimerEvent: {}
+[6.655468] (simple_pkg_cpp) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/hello_publisher2.dir/src/hello_publisher2.cpp.o\x1b[0m\n'}
+[6.721104] (-) TimerEvent: {}
+[6.829017] (-) TimerEvent: {}
+[6.930650] (-) TimerEvent: {}
+[7.031572] (-) TimerEvent: {}
+[7.137779] (-) TimerEvent: {}
+[7.240470] (-) TimerEvent: {}
+[7.341424] (-) TimerEvent: {}
+[7.443225] (-) TimerEvent: {}
+[7.544309] (-) TimerEvent: {}
+[7.645426] (-) TimerEvent: {}
+[7.745893] (-) TimerEvent: {}
+[7.846288] (-) TimerEvent: {}
+[7.948740] (-) TimerEvent: {}
+[8.049195] (-) TimerEvent: {}
+[8.150160] (-) TimerEvent: {}
+[8.252007] (-) TimerEvent: {}
+[8.353339] (-) TimerEvent: {}
+[8.454460] (-) TimerEvent: {}
+[8.555680] (-) TimerEvent: {}
+[8.657245] (-) TimerEvent: {}
+[8.733467] (simple_pkg_cpp) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX executable hello_publisher\x1b[0m\n'}
+[8.757877] (-) TimerEvent: {}
+[8.859139] (-) TimerEvent: {}
+[8.959866] (-) TimerEvent: {}
+[9.061878] (-) TimerEvent: {}
+[9.097574] (simple_pkg_cpp) StdoutLine: {'line': b'[ 53%] Built target hello_publisher\n'}
+[9.141613] (simple_pkg_cpp) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/hello_publisher_class.dir/src/hello_publisher_class.cpp.o\x1b[0m\n'}
+[9.162131] (-) TimerEvent: {}
+[9.265790] (-) TimerEvent: {}
+[9.368395] (-) TimerEvent: {}
+[9.469901] (-) TimerEvent: {}
+[9.573284] (-) TimerEvent: {}
+[9.674217] (-) TimerEvent: {}
+[9.775605] (-) TimerEvent: {}
+[9.876776] (-) TimerEvent: {}
+[9.985815] (-) TimerEvent: {}
+[10.086183] (-) TimerEvent: {}
+[10.189404] (-) TimerEvent: {}
+[10.290694] (-) TimerEvent: {}
+[10.391105] (-) TimerEvent: {}
+[10.492410] (-) TimerEvent: {}
+[10.592812] (-) TimerEvent: {}
+[10.695187] (-) TimerEvent: {}
+[10.800588] (-) TimerEvent: {}
+[10.901098] (-) TimerEvent: {}
+[11.003741] (-) TimerEvent: {}
+[11.104170] (-) TimerEvent: {}
+[11.204709] (-) TimerEvent: {}
+[11.307896] (-) TimerEvent: {}
+[11.409119] (-) TimerEvent: {}
+[11.511445] (-) TimerEvent: {}
+[11.611944] (-) TimerEvent: {}
+[11.712897] (-) TimerEvent: {}
+[11.814567] (-) TimerEvent: {}
+[11.916382] (-) TimerEvent: {}
+[12.018987] (-) TimerEvent: {}
+[12.127660] (-) TimerEvent: {}
+[12.228316] (-) TimerEvent: {}
+[12.331542] (-) TimerEvent: {}
+[12.436690] (-) TimerEvent: {}
+[12.537219] (-) TimerEvent: {}
+[12.642061] (-) TimerEvent: {}
+[12.742706] (-) TimerEvent: {}
+[12.848499] (-) TimerEvent: {}
+[12.949432] (-) TimerEvent: {}
+[13.050349] (-) TimerEvent: {}
+[13.158324] (-) TimerEvent: {}
+[13.263584] (-) TimerEvent: {}
+[13.365918] (-) TimerEvent: {}
+[13.467604] (-) TimerEvent: {}
+[13.569784] (-) TimerEvent: {}
+[13.670894] (-) TimerEvent: {}
+[13.775697] (-) TimerEvent: {}
+[13.877419] (-) TimerEvent: {}
+[13.979520] (-) TimerEvent: {}
+[14.081333] (-) TimerEvent: {}
+[14.183898] (-) TimerEvent: {}
+[14.285450] (-) TimerEvent: {}
+[14.390465] (-) TimerEvent: {}
+[14.491329] (-) TimerEvent: {}
+[14.591883] (-) TimerEvent: {}
+[14.692655] (-) TimerEvent: {}
+[14.795677] (-) TimerEvent: {}
+[14.906179] (-) TimerEvent: {}
+[15.017405] (-) TimerEvent: {}
+[15.121725] (-) TimerEvent: {}
+[15.222942] (-) TimerEvent: {}
+[15.323369] (-) TimerEvent: {}
+[15.429927] (-) TimerEvent: {}
+[15.531365] (-) TimerEvent: {}
+[15.632131] (-) TimerEvent: {}
+[15.737839] (-) TimerEvent: {}
+[15.838846] (-) TimerEvent: {}
+[15.954160] (-) TimerEvent: {}
+[15.974605] (simple_pkg_cpp) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX executable hello_publisher2\x1b[0m\n'}
+[16.055012] (-) TimerEvent: {}
+[16.155704] (-) TimerEvent: {}
+[16.256726] (-) TimerEvent: {}
+[16.358975] (-) TimerEvent: {}
+[16.447707] (simple_pkg_cpp) StdoutLine: {'line': b'[ 69%] Built target hello_publisher2\n'}
+[16.459142] (-) TimerEvent: {}
+[16.560864] (-) TimerEvent: {}
+[16.661555] (-) TimerEvent: {}
+[16.763561] (-) TimerEvent: {}
+[16.863995] (-) TimerEvent: {}
+[16.964781] (-) TimerEvent: {}
+[17.067295] (-) TimerEvent: {}
+[17.170089] (-) TimerEvent: {}
+[17.271205] (-) TimerEvent: {}
+[17.372743] (-) TimerEvent: {}
+[17.473210] (-) TimerEvent: {}
+[17.575752] (-) TimerEvent: {}
+[17.620792] (simple_pkg_cpp) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable hello_publisher_class\x1b[0m\n'}
+[17.676107] (-) TimerEvent: {}
+[17.776947] (-) TimerEvent: {}
+[17.838660] (simple_pkg_cpp) StdoutLine: {'line': b'[ 76%] Built target hello_publisher_class\n'}
+[17.872539] (simple_pkg_cpp) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/hello_publisher_class2.dir/src/hello_publisher_class2.cpp.o\x1b[0m\n'}
+[17.879604] (-) TimerEvent: {}
+[17.985664] (-) TimerEvent: {}
+[18.086760] (-) TimerEvent: {}
+[18.192337] (-) TimerEvent: {}
+[18.293305] (-) TimerEvent: {}
+[18.394012] (-) TimerEvent: {}
+[18.494897] (-) TimerEvent: {}
+[18.595556] (-) TimerEvent: {}
+[18.698159] (-) TimerEvent: {}
+[18.800031] (-) TimerEvent: {}
+[18.902406] (-) TimerEvent: {}
+[19.003398] (-) TimerEvent: {}
+[19.104728] (-) TimerEvent: {}
+[19.205370] (-) TimerEvent: {}
+[19.308306] (-) TimerEvent: {}
+[19.409351] (-) TimerEvent: {}
+[19.509655] (-) TimerEvent: {}
+[19.614755] (-) TimerEvent: {}
+[19.715618] (-) TimerEvent: {}
+[19.820136] (-) TimerEvent: {}
+[19.920924] (-) TimerEvent: {}
+[20.021393] (-) TimerEvent: {}
+[20.122060] (-) TimerEvent: {}
+[20.222643] (-) TimerEvent: {}
+[20.323266] (-) TimerEvent: {}
+[20.423831] (-) TimerEvent: {}
+[20.525374] (-) TimerEvent: {}
+[20.627738] (-) TimerEvent: {}
+[20.728486] (-) TimerEvent: {}
+[20.829493] (-) TimerEvent: {}
+[20.930670] (-) TimerEvent: {}
+[21.031773] (-) TimerEvent: {}
+[21.134551] (-) TimerEvent: {}
+[21.235539] (-) TimerEvent: {}
+[21.336469] (-) TimerEvent: {}
+[21.372366] (simple_pkg_cpp) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/hello_publisher_class2.dir/src/publisher.cpp.o\x1b[0m\n'}
+[21.437122] (-) TimerEvent: {}
+[21.538687] (-) TimerEvent: {}
+[21.640344] (-) TimerEvent: {}
+[21.741342] (-) TimerEvent: {}
+[21.843979] (-) TimerEvent: {}
+[21.945924] (-) TimerEvent: {}
+[22.046714] (-) TimerEvent: {}
+[22.149770] (-) TimerEvent: {}
+[22.251115] (-) TimerEvent: {}
+[22.352633] (-) TimerEvent: {}
+[22.453747] (-) TimerEvent: {}
+[22.555728] (-) TimerEvent: {}
+[22.656434] (-) TimerEvent: {}
+[22.758526] (-) TimerEvent: {}
+[22.858963] (-) TimerEvent: {}
+[22.959907] (-) TimerEvent: {}
+[23.060423] (-) TimerEvent: {}
+[23.161322] (-) TimerEvent: {}
+[23.261909] (-) TimerEvent: {}
+[23.364423] (-) TimerEvent: {}
+[23.466082] (-) TimerEvent: {}
+[23.568594] (-) TimerEvent: {}
+[23.669602] (-) TimerEvent: {}
+[23.770884] (-) TimerEvent: {}
+[23.872174] (-) TimerEvent: {}
+[23.972621] (-) TimerEvent: {}
+[24.073843] (-) TimerEvent: {}
+[24.175175] (-) TimerEvent: {}
+[24.275616] (-) TimerEvent: {}
+[24.326688] (simple_pkg_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp/src/publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid publish_helloworld_msg()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[24.326990] (simple_pkg_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp/src/publisher.cpp:13:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_i\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[24.327078] (simple_pkg_cpp) StderrLine: {'line': b'   13 |     msg.data = "Hellow, World!"+to_string(\x1b[01;31m\x1b[K_i\x1b[m\x1b[K) ;\n'}
+[24.327156] (simple_pkg_cpp) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[24.330857] (simple_pkg_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp/src/publisher.cpp:14:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[24.332051] (simple_pkg_cpp) StderrLine: {'line': b'   14 |     \x1b[01;31m\x1b[K_pub\x1b[m\x1b[K->publish(msg);\n'}
+[24.332116] (simple_pkg_cpp) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[24.376545] (-) TimerEvent: {}
+[24.477888] (-) TimerEvent: {}
+[24.580711] (-) TimerEvent: {}
+[24.682475] (-) TimerEvent: {}
+[24.784066] (-) TimerEvent: {}
+[24.885586] (-) TimerEvent: {}
+[24.987736] (-) TimerEvent: {}
+[25.090781] (-) TimerEvent: {}
+[25.191444] (-) TimerEvent: {}
+[25.271156] (simple_pkg_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hello_publisher_class2.dir/build.make:90: CMakeFiles/hello_publisher_class2.dir/src/publisher.cpp.o] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[25.272450] (simple_pkg_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/hello_publisher_class2.dir/all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[25.272765] (simple_pkg_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[25.280071] (simple_pkg_cpp) CommandEnded: {'returncode': 2}
+[25.292664] (-) TimerEvent: {}
+[25.376363] (simple_pkg_cpp) JobEnded: {'identifier': 'simple_pkg_cpp', 'rc': 2}
+[25.387632] (-) EventReactorShutdown: {}

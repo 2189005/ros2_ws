@@ -447,3 +447,51 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3b612/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b612.dir/build.make CMakeFiles/cmTC_3b612.dir/build
+gmake[1]: 디렉터리 '/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_3b612.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3b612.dir/CheckIncludeFile.c.o -c /home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3b612
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b612.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3b612.dir/CheckIncludeFile.c.o -o cmTC_3b612 
+gmake[1]: 디렉터리 '/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/CMakeFiles/CMakeTmp' 나감
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_004a1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_004a1.dir/build.make CMakeFiles/cmTC_004a1.dir/build
+gmake[1]: 디렉터리 '/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_004a1.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_004a1.dir/src.c.o -c /home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_004a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_004a1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_004a1.dir/src.c.o -o cmTC_004a1 
+gmake[1]: 디렉터리 '/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp/CMakeFiles/CMakeTmp' 나감
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
