@@ -10,10 +10,12 @@ MoveTurtleBot::MoveTurtleBot()
     _timer = this->create_wall_timer(30ms, std::bind(&MoveTurtleBot::publish_turtlesim_msg, this));
 }
 
-void MoveTurtleBot::publish_turtlesim_msg()
-{
+void MoveTurtleBot::publish_turtlesim_msg(){
+    auto twist = geometry_msgs::msg::Twist();
+    twist.linear.x = 0.1;
+    twist.angular.z = 0.5;
+    _twist_pub->publish(twist);
 }
-
-void MoveTurtleBot::sub_odom_msg(const nav_msgs::msg::Odometry::SharedPtr msg)
-{
+void MoveTurtleBot::sub_odom_msg(const nav_msgs::msg::Odometry::SharedPtr msg){
+    RCLCPP_INFO(get_logger(), "I heard: [%f]", msg->twist.twist.linear.x);
 }

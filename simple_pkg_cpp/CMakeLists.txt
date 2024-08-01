@@ -40,18 +40,6 @@ ament_target_dependencies(time_publisher_class rclcpp std_msgs)
 add_executable(time_subscriber_class src/time_subscriber_class.cpp src/time_sub.cpp)
 ament_target_dependencies(time_subscriber_class rclcpp std_msgs)
 
-add_executable(mpub src/mpub.cpp src/m_pub.cpp)
-ament_target_dependencies(mpub rclcpp std_msgs)
-
-add_executable(msub src/msub.cpp src/m_sub.cpp)
-ament_target_dependencies(msub rclcpp std_msgs)
-
-add_executable(m2sub src/m2sub.cpp src/m2_sub.cpp)
-ament_target_dependencies(m2sub rclcpp std_msgs)
-
-add_executable(mtsub src/mtsub.cpp src/mt_sub.cpp)
-ament_target_dependencies(mtsub rclcpp std_msgs)
-
 
 #install
 install(TARGETS
@@ -64,10 +52,6 @@ install(TARGETS
   hello_subscriber_class
   time_publisher_class
   time_subscriber_class
-  mpub
-  msub
-  m2sub
-  mtsub
   DESTINATION lib/${PROJECT_NAME}
 )
 
