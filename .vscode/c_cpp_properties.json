@@ -10,7 +10,8 @@
                 "/home/lab/ros2_ws/src/simple_pkg_cpp/include/**",
                 "/usr/include/**",
                 "~/ros2_ws/src/**",
-                "/home/lab/ros2_ws/src/ros2_ws/move_t_sim/include/**"
+                "/home/lab/ros2_ws/src/ros2_ws/move_t_sim/include/**",
+                "/home/lab/ros2_ws/install/interface_example/include/**"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",
