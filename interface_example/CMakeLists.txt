@@ -14,7 +14,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddTwoInt.srv"
   "srv/ArithmeticOperator.srv"
   "action/Fibonacci.action"
-  "action/ArithmeticCheaker.action"
+  "action/ArithmeticChecker.action"
 
 )
 
