@@ -1,1 +1,0 @@
-/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_cmake/srv/ArithmeticOperator_Request.msg

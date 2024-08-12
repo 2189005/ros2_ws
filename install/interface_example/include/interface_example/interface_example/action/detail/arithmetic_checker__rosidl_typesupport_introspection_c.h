@@ -1,1 +1,0 @@
-/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_typesupport_introspection_c/interface_example/action/detail/arithmetic_checker__rosidl_typesupport_introspection_c.h

@@ -1,1 +1,0 @@
-/home/lab/ros2_ws/src/ros2_ws/interface_example/msg/ArithmeticArgument.msg
