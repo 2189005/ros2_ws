@@ -30,7 +30,6 @@ private:
         cv::Canny(img, canny, 100, 200);
         cv::imshow("canny", canny);
         cv::waitKey(30);
-        RCLCPP_INFO(get_logger(), " %s", std::string(msg.header.frame_id));
     }
 };
 

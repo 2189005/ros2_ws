@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(moveTSim)
+project(move_t_sim)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -10,6 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
+find_package(nav2_msgs REQUIRED)
 find_package(turtlesim REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(rclcpp_action REQUIRED)
@@ -38,6 +39,21 @@ ament_target_dependencies(rotate_turtle rclcpp turtlesim rclcpp_action)
 add_executable(canny_camera src/canny_camera.cpp)
 ament_target_dependencies(canny_camera rclcpp sensor_msgs cv_bridge OpenCV)
 
+add_executable(canny_camera2 src/canny_camera2.cpp)
+ament_target_dependencies(canny_camera2 rclcpp sensor_msgs cv_bridge OpenCV)
+
+add_executable(simple_ridar src/simple_ridar.cpp)
+ament_target_dependencies(simple_ridar rclcpp sensor_msgs)
+
+add_executable(stay_thirty src/stay_thirty.cpp)
+ament_target_dependencies(stay_thirty rclcpp geometry_msgs sensor_msgs)
+
+add_executable(follow_wall src/follow_wall.cpp)
+ament_target_dependencies(follow_wall rclcpp geometry_msgs sensor_msgs)
+
+add_executable(waypoints_action src/waypoints_action.cpp)
+ament_target_dependencies(waypoints_action rclcpp nav2_msgs rclcpp_action tf2)
+
 #install
 install(TARGETS
   moveTurtleSim
@@ -46,6 +62,10 @@ install(TARGETS
   moveTurtleBot2
   rotate_turtle
   canny_camera
+  canny_camera2
+  simple_ridar
+  follow_wall
+  waypoints_action
   DESTINATION lib/${PROJECT_NAME}
 )
 
