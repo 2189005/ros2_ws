@@ -26,3 +26,22 @@ publish와 subcrib에 대한 것을 배움
 그 후 터틀봇3에 대한 네트워크, 와이파이 설정 함
 vs code를 통하여 터틀봇 내부의 파일을 열었고 그 안에 move_t_sim 내용을 복사함
 복사한 후 추가적인 내용 수정 후 터틀 봇에서 명령을 수행하도록 하였으나 오류로 인하여 실패함
+
+2024-08-08 목요일
+
+rotate_turtle 파일을 만들어 터틀봇을 돌리는 코드를 제작하여 터틀봇을 돌리는 실습을 함
+그 외에 CMakeLists파일을 수정하여 rotate_turtle 파일 인스톨을 추가해주고 관련된 파일들을 불러올 수 있도록 함
+
+2024-08-12 월요일
+
+simple_ridar, stay_thirty, follow_wall, waypoints_action 파일들을 만들고
+ros2 run turtlebot3_teleop teleop_keyborad 명령어를 통해 키보드 입력을 가제보에서 받을 수 있도록 함
+그 후 키보드 입력을 통해 터틀봇을 입력에 맞게 속도 및 방향을 조정하여 움직임을 조정함
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+코드를 통하여 가제보를 실행하고
+ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+코드를 통하여 카터그래퍼를 실행하고
+ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True
+코드를 통하여 네비게이션2를 실행하여 터틀봇의 움직임을 확인함
+그 후 waypoints_action 파일을 실행시켜 기존의 설정해놓은 경로를 따라 움직이도록 함
+

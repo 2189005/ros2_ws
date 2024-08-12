@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/time_publisher_class.dir/build.make:175: time_publisher_class] 인터럽트
-gmake[1]: *** [CMakeFiles/Makefile2:345: CMakeFiles/time_publisher_class.dir/all] 인터럽트
-gmake: *** [Makefile:146: all] 인터럽트
