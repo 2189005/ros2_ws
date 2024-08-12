@@ -309,3 +309,48 @@ endfunction()
 message(STATUS "Execute custom install script")
 
 # begin of custom install code
+
+# install("TARGETS" "moveTurtleSim" "moveTurtleBot" "moveTurtleBot2" "rotate_turtle" "canny_camera" "canny_camera2" "simple_ridar" "follow_wall" "waypoints_action" "DESTINATION" "lib/move_t_sim")
+include("/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/move_t_sim" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/move_t_sim" FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/move_t_sim" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/move_t_sim" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/move_t_sim" FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/move_t_sim" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/move_t_sim/environment")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/move_t_sim" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/move_t_sim/environment")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/move_t_sim/environment")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/move_t_sim" FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/move_t_sim/environment")
+
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/move_t_sim/environment")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/move_t_sim" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/move_t_sim/environment")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/move_t_sim/environment")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/move_t_sim" FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/move_t_sim/environment")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/move_t_sim")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/move_t_sim" FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/move_t_sim")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/move_t_sim")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/move_t_sim" FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/move_t_sim")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/move_t_sim")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/move_t_sim" FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/move_t_sim")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/move_t_sim")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/move_t_sim" FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/move_t_sim")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/move_t_sim")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/move_t_sim" FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/move_t_sim")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_index/share/ament_index/resource_index/packages/move_t_sim" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/move_t_sim" FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_index/share/ament_index/resource_index/packages/move_t_sim" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_core/move_t_simConfig.cmake" "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_core/move_t_simConfig-version.cmake" "DESTINATION" "share/move_t_sim/cmake")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/move_t_sim" FILES "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_core/move_t_simConfig.cmake" "/home/lab/ros2_ws/src/ros2_ws/build/move_t_sim/ament_cmake_core/move_t_simConfig-version.cmake" "DESTINATION" "share/move_t_sim/cmake")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/move_t_sim/package.xml" "DESTINATION" "share/move_t_sim")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/move_t_sim" FILES "/home/lab/ros2_ws/src/ros2_ws/move_t_sim/package.xml" "DESTINATION" "share/move_t_sim")

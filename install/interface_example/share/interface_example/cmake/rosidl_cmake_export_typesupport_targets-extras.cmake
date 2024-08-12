@@ -1,0 +1,1 @@
+/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

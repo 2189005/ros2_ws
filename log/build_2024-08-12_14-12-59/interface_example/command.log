@@ -1,0 +1,4 @@
+Invoking command in '/home/lab/ros2_ws/src/ros2_ws/build/interface_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lab/ros2_ws/src/ros2_ws/build/interface_example -- -j2 -l2
+Invoked command in '/home/lab/ros2_ws/src/ros2_ws/build/interface_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lab/ros2_ws/src/ros2_ws/build/interface_example -- -j2 -l2
+Invoking command in '/home/lab/ros2_ws/src/ros2_ws/build/interface_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lab/ros2_ws/src/ros2_ws/build/interface_example
+Invoked command in '/home/lab/ros2_ws/src/ros2_ws/build/interface_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lab/ros2_ws/src/ros2_ws/build/interface_example

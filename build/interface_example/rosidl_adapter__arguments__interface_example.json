@@ -1,6 +1,10 @@
 {
   "package_name": "interface_example",
   "non_idl_tuples": [
-    "/home/lab/ros2_ws/src/ros2_ws/interface_example:srv/AddTwoInt.srv"
+    "/home/lab/ros2_ws/src/ros2_ws/interface_example:msg/ArithmeticArgument.msg",
+    "/home/lab/ros2_ws/src/ros2_ws/interface_example:srv/AddTwoInt.srv",
+    "/home/lab/ros2_ws/src/ros2_ws/interface_example:srv/ArithmeticOperator.srv",
+    "/home/lab/ros2_ws/src/ros2_ws/interface_example:action/Fibonacci.action",
+    "/home/lab/ros2_ws/src/ros2_ws/interface_example:action/ArithmeticChecker.action"
   ]
 }

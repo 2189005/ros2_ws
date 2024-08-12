@@ -1,0 +1,52 @@
+[0.036s] Invoking command in '/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp -- -j2 -l2
+[0.111s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.293s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.325s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.374s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.376s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.390s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.519s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.522s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.703s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.954s] -- Found interface_example: 0.0.0 (/home/lab/ros2_ws/install/interface_example/share/interface_example/cmake)
+[1.166s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.229s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.389s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.389s] -- Configured cppcheck include dirs: /home/lab/ros2_ws/src/ros2_ws/simple_pkg_cpp/include
+[1.389s] -- Configured cppcheck exclude dirs and/or files: 
+[1.389s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.389s] -- Added test 'lint_cmake' to check CMake code style
+[1.389s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.389s] -- Added test 'uncrustify' to check C / C++ code style
+[1.389s] -- Configured uncrustify additional arguments: 
+[1.389s] -- Added test 'xmllint' to check XML markup files
+[1.398s] -- Configuring done
+[1.499s] -- Generating done
+[1.500s] -- Build files have been written to: /home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp
+[1.530s] [35m[1mConsolidate compiler generated dependencies of target helloworld[0m
+[1.552s] [  6%] Built target helloworld
+[1.553s] [35m[1mConsolidate compiler generated dependencies of target helloOpenCV[0m
+[1.567s] [ 12%] Built target helloOpenCV
+[1.577s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher[0m
+[1.592s] [ 18%] Built target hello_publisher
+[1.606s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher2[0m
+[1.620s] [ 21%] [32mBuilding CXX object CMakeFiles/hello_publisher2.dir/src/hello_publisher2.cpp.o[0m
+[11.286s] [ 25%] [32m[1mLinking CXX executable hello_publisher2[0m
+[11.622s] [ 25%] Built target hello_publisher2
+[11.661s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher_class[0m
+[11.709s] [ 31%] Built target hello_publisher_class
+[11.768s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher_class2[0m
+[11.833s] [ 40%] Built target hello_publisher_class2
+[11.926s] [ 43%] [32mBuilding CXX object CMakeFiles/hello_subscriber_class.dir/src/hello_subscriber_class.cpp.o[0m
+[19.600s] [ 46%] [32mBuilding CXX object CMakeFiles/hello_subscriber_class.dir/src/subscriber.cpp.o[0m
+[36.163s] [ 50%] [32m[1mLinking CXX executable hello_subscriber_class[0m
+[36.955s] [ 50%] Built target hello_subscriber_class
+[37.026s] [ 53%] [32mBuilding CXX object CMakeFiles/time_publisher_class.dir/src/time_publisher_class.cpp.o[0m
+[42.448s] [ 56%] [32mBuilding CXX object CMakeFiles/time_publisher_class.dir/src/time_pub.cpp.o[0m
+[51.480s] [ 59%] [32m[1mLinking CXX executable time_publisher_class[0m
+[51.510s] gmake[2]: *** [CMakeFiles/time_publisher_class.dir/build.make:175: time_publisher_class] 인터럽트
+[51.510s] gmake[1]: *** [CMakeFiles/Makefile2:345: CMakeFiles/time_publisher_class.dir/all] 인터럽트
+[51.511s] gmake: *** [Makefile:146: all] 인터럽트
+[51.512s] Invoked command in '/home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lab/ros2_ws/src/ros2_ws/build/simple_pkg_cpp -- -j2 -l2

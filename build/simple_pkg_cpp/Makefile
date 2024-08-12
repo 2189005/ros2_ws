@@ -275,6 +275,110 @@ hello_publisher_class2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_publisher_class2.dir/build.make CMakeFiles/hello_publisher_class2.dir/build
 .PHONY : hello_publisher_class2/fast
 
+#=============================================================================
+# Target rules for targets named hello_subscriber_class
+
+# Build rule for target.
+hello_subscriber_class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_subscriber_class
+.PHONY : hello_subscriber_class
+
+# fast build rule for target.
+hello_subscriber_class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_subscriber_class.dir/build.make CMakeFiles/hello_subscriber_class.dir/build
+.PHONY : hello_subscriber_class/fast
+
+#=============================================================================
+# Target rules for targets named time_publisher_class
+
+# Build rule for target.
+time_publisher_class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 time_publisher_class
+.PHONY : time_publisher_class
+
+# fast build rule for target.
+time_publisher_class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_publisher_class.dir/build.make CMakeFiles/time_publisher_class.dir/build
+.PHONY : time_publisher_class/fast
+
+#=============================================================================
+# Target rules for targets named time_subscriber_class
+
+# Build rule for target.
+time_subscriber_class: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 time_subscriber_class
+.PHONY : time_subscriber_class
+
+# fast build rule for target.
+time_subscriber_class/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_subscriber_class.dir/build.make CMakeFiles/time_subscriber_class.dir/build
+.PHONY : time_subscriber_class/fast
+
+#=============================================================================
+# Target rules for targets named simple_service_server
+
+# Build rule for target.
+simple_service_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_service_server
+.PHONY : simple_service_server
+
+# fast build rule for target.
+simple_service_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/build
+.PHONY : simple_service_server/fast
+
+#=============================================================================
+# Target rules for targets named simple_service_client
+
+# Build rule for target.
+simple_service_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_service_client
+.PHONY : simple_service_client
+
+# fast build rule for target.
+simple_service_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/build
+.PHONY : simple_service_client/fast
+
+#=============================================================================
+# Target rules for targets named simple_service_client2
+
+# Build rule for target.
+simple_service_client2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_service_client2
+.PHONY : simple_service_client2
+
+# fast build rule for target.
+simple_service_client2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client2.dir/build.make CMakeFiles/simple_service_client2.dir/build
+.PHONY : simple_service_client2/fast
+
+#=============================================================================
+# Target rules for targets named simple_action_server
+
+# Build rule for target.
+simple_action_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_action_server
+.PHONY : simple_action_server
+
+# fast build rule for target.
+simple_action_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server.dir/build.make CMakeFiles/simple_action_server.dir/build
+.PHONY : simple_action_server/fast
+
+#=============================================================================
+# Target rules for targets named simple_action_client
+
+# Build rule for target.
+simple_action_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_action_client
+.PHONY : simple_action_client
+
+# fast build rule for target.
+simple_action_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_client.dir/build.make CMakeFiles/simple_action_client.dir/build
+.PHONY : simple_action_client/fast
+
 src/helloOpenCV.o: src/helloOpenCV.cpp.o
 .PHONY : src/helloOpenCV.o
 
@@ -395,6 +499,30 @@ src/hello_publisher_class2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_publisher_class2.dir/build.make CMakeFiles/hello_publisher_class2.dir/src/hello_publisher_class2.cpp.s
 .PHONY : src/hello_publisher_class2.cpp.s
 
+src/hello_subscriber_class.o: src/hello_subscriber_class.cpp.o
+.PHONY : src/hello_subscriber_class.o
+
+# target to build an object file
+src/hello_subscriber_class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_subscriber_class.dir/build.make CMakeFiles/hello_subscriber_class.dir/src/hello_subscriber_class.cpp.o
+.PHONY : src/hello_subscriber_class.cpp.o
+
+src/hello_subscriber_class.i: src/hello_subscriber_class.cpp.i
+.PHONY : src/hello_subscriber_class.i
+
+# target to preprocess a source file
+src/hello_subscriber_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_subscriber_class.dir/build.make CMakeFiles/hello_subscriber_class.dir/src/hello_subscriber_class.cpp.i
+.PHONY : src/hello_subscriber_class.cpp.i
+
+src/hello_subscriber_class.s: src/hello_subscriber_class.cpp.s
+.PHONY : src/hello_subscriber_class.s
+
+# target to generate assembly for a file
+src/hello_subscriber_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_subscriber_class.dir/build.make CMakeFiles/hello_subscriber_class.dir/src/hello_subscriber_class.cpp.s
+.PHONY : src/hello_subscriber_class.cpp.s
+
 src/helloworld.o: src/helloworld.cpp.o
 .PHONY : src/helloworld.o
 
@@ -443,6 +571,246 @@ src/publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_publisher_class2.dir/build.make CMakeFiles/hello_publisher_class2.dir/src/publisher.cpp.s
 .PHONY : src/publisher.cpp.s
 
+src/simple_action_client.o: src/simple_action_client.cpp.o
+.PHONY : src/simple_action_client.o
+
+# target to build an object file
+src/simple_action_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_client.dir/build.make CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o
+.PHONY : src/simple_action_client.cpp.o
+
+src/simple_action_client.i: src/simple_action_client.cpp.i
+.PHONY : src/simple_action_client.i
+
+# target to preprocess a source file
+src/simple_action_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_client.dir/build.make CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.i
+.PHONY : src/simple_action_client.cpp.i
+
+src/simple_action_client.s: src/simple_action_client.cpp.s
+.PHONY : src/simple_action_client.s
+
+# target to generate assembly for a file
+src/simple_action_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_client.dir/build.make CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.s
+.PHONY : src/simple_action_client.cpp.s
+
+src/simple_action_server.o: src/simple_action_server.cpp.o
+.PHONY : src/simple_action_server.o
+
+# target to build an object file
+src/simple_action_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server.dir/build.make CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o
+.PHONY : src/simple_action_server.cpp.o
+
+src/simple_action_server.i: src/simple_action_server.cpp.i
+.PHONY : src/simple_action_server.i
+
+# target to preprocess a source file
+src/simple_action_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server.dir/build.make CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.i
+.PHONY : src/simple_action_server.cpp.i
+
+src/simple_action_server.s: src/simple_action_server.cpp.s
+.PHONY : src/simple_action_server.s
+
+# target to generate assembly for a file
+src/simple_action_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server.dir/build.make CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.s
+.PHONY : src/simple_action_server.cpp.s
+
+src/simple_service_client.o: src/simple_service_client.cpp.o
+.PHONY : src/simple_service_client.o
+
+# target to build an object file
+src/simple_service_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o
+.PHONY : src/simple_service_client.cpp.o
+
+src/simple_service_client.i: src/simple_service_client.cpp.i
+.PHONY : src/simple_service_client.i
+
+# target to preprocess a source file
+src/simple_service_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.i
+.PHONY : src/simple_service_client.cpp.i
+
+src/simple_service_client.s: src/simple_service_client.cpp.s
+.PHONY : src/simple_service_client.s
+
+# target to generate assembly for a file
+src/simple_service_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.s
+.PHONY : src/simple_service_client.cpp.s
+
+src/simple_service_client2.o: src/simple_service_client2.cpp.o
+.PHONY : src/simple_service_client2.o
+
+# target to build an object file
+src/simple_service_client2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client2.dir/build.make CMakeFiles/simple_service_client2.dir/src/simple_service_client2.cpp.o
+.PHONY : src/simple_service_client2.cpp.o
+
+src/simple_service_client2.i: src/simple_service_client2.cpp.i
+.PHONY : src/simple_service_client2.i
+
+# target to preprocess a source file
+src/simple_service_client2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client2.dir/build.make CMakeFiles/simple_service_client2.dir/src/simple_service_client2.cpp.i
+.PHONY : src/simple_service_client2.cpp.i
+
+src/simple_service_client2.s: src/simple_service_client2.cpp.s
+.PHONY : src/simple_service_client2.s
+
+# target to generate assembly for a file
+src/simple_service_client2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client2.dir/build.make CMakeFiles/simple_service_client2.dir/src/simple_service_client2.cpp.s
+.PHONY : src/simple_service_client2.cpp.s
+
+src/simple_service_server.o: src/simple_service_server.cpp.o
+.PHONY : src/simple_service_server.o
+
+# target to build an object file
+src/simple_service_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o
+.PHONY : src/simple_service_server.cpp.o
+
+src/simple_service_server.i: src/simple_service_server.cpp.i
+.PHONY : src/simple_service_server.i
+
+# target to preprocess a source file
+src/simple_service_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.i
+.PHONY : src/simple_service_server.cpp.i
+
+src/simple_service_server.s: src/simple_service_server.cpp.s
+.PHONY : src/simple_service_server.s
+
+# target to generate assembly for a file
+src/simple_service_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.s
+.PHONY : src/simple_service_server.cpp.s
+
+src/subscriber.o: src/subscriber.cpp.o
+.PHONY : src/subscriber.o
+
+# target to build an object file
+src/subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_subscriber_class.dir/build.make CMakeFiles/hello_subscriber_class.dir/src/subscriber.cpp.o
+.PHONY : src/subscriber.cpp.o
+
+src/subscriber.i: src/subscriber.cpp.i
+.PHONY : src/subscriber.i
+
+# target to preprocess a source file
+src/subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_subscriber_class.dir/build.make CMakeFiles/hello_subscriber_class.dir/src/subscriber.cpp.i
+.PHONY : src/subscriber.cpp.i
+
+src/subscriber.s: src/subscriber.cpp.s
+.PHONY : src/subscriber.s
+
+# target to generate assembly for a file
+src/subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_subscriber_class.dir/build.make CMakeFiles/hello_subscriber_class.dir/src/subscriber.cpp.s
+.PHONY : src/subscriber.cpp.s
+
+src/time_pub.o: src/time_pub.cpp.o
+.PHONY : src/time_pub.o
+
+# target to build an object file
+src/time_pub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_publisher_class.dir/build.make CMakeFiles/time_publisher_class.dir/src/time_pub.cpp.o
+.PHONY : src/time_pub.cpp.o
+
+src/time_pub.i: src/time_pub.cpp.i
+.PHONY : src/time_pub.i
+
+# target to preprocess a source file
+src/time_pub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_publisher_class.dir/build.make CMakeFiles/time_publisher_class.dir/src/time_pub.cpp.i
+.PHONY : src/time_pub.cpp.i
+
+src/time_pub.s: src/time_pub.cpp.s
+.PHONY : src/time_pub.s
+
+# target to generate assembly for a file
+src/time_pub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_publisher_class.dir/build.make CMakeFiles/time_publisher_class.dir/src/time_pub.cpp.s
+.PHONY : src/time_pub.cpp.s
+
+src/time_publisher_class.o: src/time_publisher_class.cpp.o
+.PHONY : src/time_publisher_class.o
+
+# target to build an object file
+src/time_publisher_class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_publisher_class.dir/build.make CMakeFiles/time_publisher_class.dir/src/time_publisher_class.cpp.o
+.PHONY : src/time_publisher_class.cpp.o
+
+src/time_publisher_class.i: src/time_publisher_class.cpp.i
+.PHONY : src/time_publisher_class.i
+
+# target to preprocess a source file
+src/time_publisher_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_publisher_class.dir/build.make CMakeFiles/time_publisher_class.dir/src/time_publisher_class.cpp.i
+.PHONY : src/time_publisher_class.cpp.i
+
+src/time_publisher_class.s: src/time_publisher_class.cpp.s
+.PHONY : src/time_publisher_class.s
+
+# target to generate assembly for a file
+src/time_publisher_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_publisher_class.dir/build.make CMakeFiles/time_publisher_class.dir/src/time_publisher_class.cpp.s
+.PHONY : src/time_publisher_class.cpp.s
+
+src/time_sub.o: src/time_sub.cpp.o
+.PHONY : src/time_sub.o
+
+# target to build an object file
+src/time_sub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_subscriber_class.dir/build.make CMakeFiles/time_subscriber_class.dir/src/time_sub.cpp.o
+.PHONY : src/time_sub.cpp.o
+
+src/time_sub.i: src/time_sub.cpp.i
+.PHONY : src/time_sub.i
+
+# target to preprocess a source file
+src/time_sub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_subscriber_class.dir/build.make CMakeFiles/time_subscriber_class.dir/src/time_sub.cpp.i
+.PHONY : src/time_sub.cpp.i
+
+src/time_sub.s: src/time_sub.cpp.s
+.PHONY : src/time_sub.s
+
+# target to generate assembly for a file
+src/time_sub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_subscriber_class.dir/build.make CMakeFiles/time_subscriber_class.dir/src/time_sub.cpp.s
+.PHONY : src/time_sub.cpp.s
+
+src/time_subscriber_class.o: src/time_subscriber_class.cpp.o
+.PHONY : src/time_subscriber_class.o
+
+# target to build an object file
+src/time_subscriber_class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_subscriber_class.dir/build.make CMakeFiles/time_subscriber_class.dir/src/time_subscriber_class.cpp.o
+.PHONY : src/time_subscriber_class.cpp.o
+
+src/time_subscriber_class.i: src/time_subscriber_class.cpp.i
+.PHONY : src/time_subscriber_class.i
+
+# target to preprocess a source file
+src/time_subscriber_class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_subscriber_class.dir/build.make CMakeFiles/time_subscriber_class.dir/src/time_subscriber_class.cpp.i
+.PHONY : src/time_subscriber_class.cpp.i
+
+src/time_subscriber_class.s: src/time_subscriber_class.cpp.s
+.PHONY : src/time_subscriber_class.s
+
+# target to generate assembly for a file
+src/time_subscriber_class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_subscriber_class.dir/build.make CMakeFiles/time_subscriber_class.dir/src/time_subscriber_class.cpp.s
+.PHONY : src/time_subscriber_class.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -463,7 +831,15 @@ help:
 	@echo "... hello_publisher2"
 	@echo "... hello_publisher_class"
 	@echo "... hello_publisher_class2"
+	@echo "... hello_subscriber_class"
 	@echo "... helloworld"
+	@echo "... simple_action_client"
+	@echo "... simple_action_server"
+	@echo "... simple_service_client"
+	@echo "... simple_service_client2"
+	@echo "... simple_service_server"
+	@echo "... time_publisher_class"
+	@echo "... time_subscriber_class"
 	@echo "... src/helloOpenCV.o"
 	@echo "... src/helloOpenCV.i"
 	@echo "... src/helloOpenCV.s"
@@ -479,12 +855,45 @@ help:
 	@echo "... src/hello_publisher_class2.o"
 	@echo "... src/hello_publisher_class2.i"
 	@echo "... src/hello_publisher_class2.s"
+	@echo "... src/hello_subscriber_class.o"
+	@echo "... src/hello_subscriber_class.i"
+	@echo "... src/hello_subscriber_class.s"
 	@echo "... src/helloworld.o"
 	@echo "... src/helloworld.i"
 	@echo "... src/helloworld.s"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"
+	@echo "... src/simple_action_client.o"
+	@echo "... src/simple_action_client.i"
+	@echo "... src/simple_action_client.s"
+	@echo "... src/simple_action_server.o"
+	@echo "... src/simple_action_server.i"
+	@echo "... src/simple_action_server.s"
+	@echo "... src/simple_service_client.o"
+	@echo "... src/simple_service_client.i"
+	@echo "... src/simple_service_client.s"
+	@echo "... src/simple_service_client2.o"
+	@echo "... src/simple_service_client2.i"
+	@echo "... src/simple_service_client2.s"
+	@echo "... src/simple_service_server.o"
+	@echo "... src/simple_service_server.i"
+	@echo "... src/simple_service_server.s"
+	@echo "... src/subscriber.o"
+	@echo "... src/subscriber.i"
+	@echo "... src/subscriber.s"
+	@echo "... src/time_pub.o"
+	@echo "... src/time_pub.i"
+	@echo "... src/time_pub.s"
+	@echo "... src/time_publisher_class.o"
+	@echo "... src/time_publisher_class.i"
+	@echo "... src/time_publisher_class.s"
+	@echo "... src/time_sub.o"
+	@echo "... src/time_sub.i"
+	@echo "... src/time_sub.s"
+	@echo "... src/time_subscriber_class.o"
+	@echo "... src/time_subscriber_class.i"
+	@echo "... src/time_subscriber_class.s"
 .PHONY : help
 
 

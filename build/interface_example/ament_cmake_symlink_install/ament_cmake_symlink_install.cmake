@@ -358,8 +358,23 @@ include("/home/lab/ros2_ws/src/ros2_ws/build/interface_example/ament_cmake_symli
 # install("TARGETS" "interface_example__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/interface_example")
 include("/home/lab/ros2_ws/src/ros2_ws/build/interface_example/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_adapter/interface_example/msg/ArithmeticArgument.idl" "DESTINATION" "share/interface_example/msg")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_adapter/interface_example/msg/ArithmeticArgument.idl" "DESTINATION" "share/interface_example/msg")
+
 # install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_adapter/interface_example/srv/AddTwoInt.idl" "DESTINATION" "share/interface_example/srv")
 ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_adapter/interface_example/srv/AddTwoInt.idl" "DESTINATION" "share/interface_example/srv")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_adapter/interface_example/srv/ArithmeticOperator.idl" "DESTINATION" "share/interface_example/srv")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_adapter/interface_example/srv/ArithmeticOperator.idl" "DESTINATION" "share/interface_example/srv")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_adapter/interface_example/action/Fibonacci.idl" "DESTINATION" "share/interface_example/action")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_adapter/interface_example/action/Fibonacci.idl" "DESTINATION" "share/interface_example/action")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_adapter/interface_example/action/ArithmeticChecker.idl" "DESTINATION" "share/interface_example/action")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_adapter/interface_example/action/ArithmeticChecker.idl" "DESTINATION" "share/interface_example/action")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/interface_example/msg/ArithmeticArgument.msg" "DESTINATION" "share/interface_example/msg")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/interface_example/msg/ArithmeticArgument.msg" "DESTINATION" "share/interface_example/msg")
 
 # install(FILES "/home/lab/ros2_ws/src/ros2_ws/interface_example/srv/AddTwoInt.srv" "DESTINATION" "share/interface_example/srv")
 ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/interface_example/srv/AddTwoInt.srv" "DESTINATION" "share/interface_example/srv")
@@ -369,6 +384,21 @@ ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_examp
 
 # install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_cmake/srv/AddTwoInt_Response.msg" "DESTINATION" "share/interface_example/srv")
 ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_cmake/srv/AddTwoInt_Response.msg" "DESTINATION" "share/interface_example/srv")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/interface_example/srv/ArithmeticOperator.srv" "DESTINATION" "share/interface_example/srv")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/interface_example/srv/ArithmeticOperator.srv" "DESTINATION" "share/interface_example/srv")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_cmake/srv/ArithmeticOperator_Request.msg" "DESTINATION" "share/interface_example/srv")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_cmake/srv/ArithmeticOperator_Request.msg" "DESTINATION" "share/interface_example/srv")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_cmake/srv/ArithmeticOperator_Response.msg" "DESTINATION" "share/interface_example/srv")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_cmake/srv/ArithmeticOperator_Response.msg" "DESTINATION" "share/interface_example/srv")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/interface_example/action/Fibonacci.action" "DESTINATION" "share/interface_example/action")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/interface_example/action/Fibonacci.action" "DESTINATION" "share/interface_example/action")
+
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/interface_example/action/ArithmeticChecker.action" "DESTINATION" "share/interface_example/action")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/interface_example/action/ArithmeticChecker.action" "DESTINATION" "share/interface_example/action")
 
 # install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/interface_example" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/interface_example" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
@@ -409,6 +439,9 @@ ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_examp
 # install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/interface_example/cmake")
 ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/interface_example/cmake")
 
+# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/interface_example/cmake")
+ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/interface_example/cmake")
+
 # install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/interface_example/cmake")
 ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/interface_example/cmake")
 
@@ -420,9 +453,6 @@ ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_examp
 
 # install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/interface_example/cmake")
 ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/interface_example/cmake")
-
-# install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/interface_example/cmake")
-ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/interface_example/cmake")
 
 # install(FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/interface_example/cmake")
 ament_cmake_symlink_install_files("/home/lab/ros2_ws/src/ros2_ws/interface_example" FILES "/home/lab/ros2_ws/src/ros2_ws/build/interface_example/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/interface_example/cmake")

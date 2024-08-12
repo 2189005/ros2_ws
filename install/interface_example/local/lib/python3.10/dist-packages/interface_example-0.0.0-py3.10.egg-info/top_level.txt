@@ -1,0 +1,1 @@
+/home/lab/ros2_ws/src/ros2_ws/build/interface_example/ament_cmake_python/interface_example/interface_example.egg-info/top_level.txt
